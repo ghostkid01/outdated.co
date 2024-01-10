@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+*{
+    margin: 0; /*여백*/
+    padding: 0;
+}
+
+title {
+    height: 10vh;
+    margin: 20px;
+}
+
+p {
+    height: 20vh;
+    margin: 20px;
+}
+
+body {
+    background-image: url('sketch.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #f0f0f0;
+    height: 50vh;
+    margin: 0;
+    position: relative; /* 부모 요소를 기준으로 위치 지정 */
+}
+
+h1 {
+    color: #333;
+    font-family: 'Courier New', Courier, monospace;
+    height: 15vh;
+    margin: 20px;
+}
+
+.DX영화자막-중간 {
+    font-family: 'DX영화자막';
+    font-style: normal;
+}
+
+nav {
+    position: fixed; /* 고정 위치 */
+    bottom: 0;
+    right: 0;
+    padding: 15px;
+    background-color: #f0f0f0;
+    height: 50vh;
+    margin: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu-link {
+    font-family: 'Courier New', Courier, monospace;
+}
